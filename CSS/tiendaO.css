@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(27, 201, 5);
+    padding: 0px 25px 0px 25px;
+
+}
+
+header {
+    text-align: center;
+
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    
+}
+div>a{
+    flex-grow: 1;
+}
+
+main {
+    padding: 2px;
+    background-color: greenyellow;
+    display: flex;
+    flex-direction:row;
+}
+
+section {
+    padding: 5px;
+    
+}
+
+article {
+    padding: 4px;
+    background-color: yellow;
+    height: 110px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+}
+h4{
+    margin-bottom: 4px;
+}
+
+.btn-c {
+    width: 30px;
+    height: 30px;
+    background-color: grey;
+    border: 1px 1px solid black;
+    border-radius: 5px;
+    float: right;
+       
+}
+.sect-carrito{
+    background-image: url(../IMGs/carrito-vacio.png);
+
+}
